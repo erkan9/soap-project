@@ -8,8 +8,10 @@ The SOAP service provides functionality to retrieve information about cars. It r
 1. Run the SOAP service by executing the main method in the SoapService class or using `mvn spring-boot:run`.
 
 #### How to Generate WSDL
-- To generate the WSDL file, use the following URL: [http://localhost:8081/carws/carsService.wsdl](http://localhost:8081/carws/carsService.wsdl)
-![WSDL Screenshot](https://github.com/erkan9/soap-project/assets/63397975/99661bfb-dd95-40eb-922f-398a5d450744)
+- To generate the WSDL file, use the following URL: [http://localhost:8081/carws/carsService.wsdl]
+- 
+![Screenshot_5](https://github.com/erkan9/soap-service/assets/63397975/c7dac584-6a0b-4e0a-a0fe-758aa0858dd7)
+
 
 #### Additional Information
 - Cars can be retrieved by their ID, and this functionality is provided by the service.
@@ -24,6 +26,7 @@ The SOAP client interacts with the SOAP service to retrieve car information. It 
 
 #### Starting the Application
 - Start the SOAP service first, then start the SOAP client to interact with it.
-![Client Screenshot](https://github.com/erkan9/soap-project/assets/63397975/8d1c4b4a-7ced-49a8-913e-9b808a1450a5)
+
+![Screenshot_4](https://github.com/erkan9/soap-service/assets/63397975/6d5d8868-92be-42ba-bc28-aa8d7f325f7b)
 
 Note: There is one parent module and two submodules: soap-service and soap-client.
