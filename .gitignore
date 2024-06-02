@@ -1,0 +1,35 @@
+# Ignore target directories
+/target/
+
+# Ignore IDE specific files
+.idea/
+*.iml
+
+# Ignore build artifacts
+*.jar
+*.war
+*.ear
+*.class
+
+# Ignore generated files
+/generated/
+
+# Ignore logs
+/logs/
+
+# Ignore configuration files with sensitive information
+/application.properties
+/application.yml
+
+# Ignore Maven-specific files
+.mvn/
+mvnw
+mvnw.cmd
+
+# Ignore Gradle-specific files
+.gradle/
+build/
+
+# Ignore operating system files
+.DS_Store
+Thumbs.db
